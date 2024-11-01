@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-color-mode="light" data-dark-theme="dark" data-light-theme="light" lang="zh-CN">
+<html data-color-mode="light" data-dark-theme="dark" data-light-theme="light" lang="en">
 <head>
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -10,17 +10,9 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="The intersection of technology and law has never been more fascinating, particularly when we observe the parallels between scientific methodology and legal reasoning. As scientists and engineers, we've discovered that the systematic approach we use in solving complex technical problems shares remarkable similarities with legal analysis and precedent-based reasoning in common law. Both domains require meticulous attention to detail, logical progression of thought, and the ability to build upon established foundations while adapting to new circumstances.
-
-Recent advancements in Large Language Models (LLMs) and Multimodal Large Language Models (MLLMs) have revolutionized our ability to process and understand information. With advanced models like GPT-4, GPT-o1, and Google Gemini Pro demonstrating unprecedented capabilities in understanding context, analyzing complex documents, and drawing meaningful connections, we stand at the threshold of a new era in legal accessibility. 
-
-We have been inspired us to create LexCrypt, a platform where we bridge the gap between traditional legal knowledge and modern technological capabilities.。">
+<meta name="description" content="The intersection of technology and law has never been more fascinating, particularly when we observe the parallels between scientific methodology and legal reasoning.">
 <meta property="og:title" content="LexCrypt and why another website about US common law">
-<meta property="og:description" content="The intersection of technology and law has never been more fascinating, particularly when we observe the parallels between scientific methodology and legal reasoning. As scientists and engineers, we've discovered that the systematic approach we use in solving complex technical problems shares remarkable similarities with legal analysis and precedent-based reasoning in common law. Both domains require meticulous attention to detail, logical progression of thought, and the ability to build upon established foundations while adapting to new circumstances.
-
-Recent advancements in Large Language Models (LLMs) and Multimodal Large Language Models (MLLMs) have revolutionized our ability to process and understand information. With advanced models like GPT-4, GPT-o1, and Google Gemini Pro demonstrating unprecedented capabilities in understanding context, analyzing complex documents, and drawing meaningful connections, we stand at the threshold of a new era in legal accessibility. 
-
-We have been inspired us to create LexCrypt, a platform where we bridge the gap between traditional legal knowledge and modern technological capabilities.。">
+<meta property="og:description" content="The intersection of technology and law has never been more fascinating, particularly when we observe the parallels between scientific methodology and legal reasoning.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://benjipeng.github.io/common-law/post/LexCrypt%20and%20why%20another%20website%20about%20US%20common%20law.html">
 <meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
@@ -59,7 +51,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     <div id="header">
 <h1 class="postTitle">LexCrypt and why another website about US common law</h1>
 <div class="title-right">
-    <a href="https://benjipeng.github.io/common-law" id="buttonHome" class="btn btn-invisible circle" title="首页">
+    <a href="https://benjipeng.github.io/common-law" id="buttonHome" class="btn btn-invisible circle" title="home">
         <svg class="octicon" width="16" height="16">
             <path id="pathHome" fill-rule="evenodd"></path>
         </svg>
@@ -72,7 +64,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
     </a>
     
 
-    <a class="btn btn-invisible circle" onclick="modeSwitch();" title="切换主题">
+    <a class="btn btn-invisible circle" onclick="modeSwitch();" title="switch theme">
         <svg class="octicon" width="16" height="16" >
             <path id="themeSwitch" fill-rule="evenodd"></path>
         </svg>
@@ -86,7 +78,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>We have been inspired us to create LexCrypt, a platform where we bridge the gap between traditional legal knowledge and modern technological capabilities.</p></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
-<button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
+<button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">comments</button>
 <div class="comments" id="comments"></div>
 
 </div>
@@ -103,7 +95,7 @@ if(""!=""){
     var startSite=new Date("");
     var diff=now.getTime()-startSite.getTime();
     var diffDay=Math.floor(diff/(1000*60*60*24));
-    document.getElementById("runday").innerHTML="网站运行"+diffDay+"天"+" • ";
+    document.getElementById("runday").innerHTML="run "+diffDay+" days"+" • ";
 }
 </script></div>
 </body>
